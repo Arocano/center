@@ -9,8 +9,8 @@ import React, { useState } from 'react'
 const query = '*[_type == "promociones"]';
 const Home = async () => {
 
-    const prom = await client.fetch<SanityDocument>(query);
-    console.log(prom)
+    //const prom = await client.fetch<SanityDocument>(query);
+    //console.log(prom)
     return (
 
         <div className='flex flex-col'>
