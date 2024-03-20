@@ -35,10 +35,7 @@ const Home = async () => {
 
                 </div>
                 <div className='h-full lg:flex-1'>
-                    <video autoPlay loop muted className='w-full h-auto lg:h-full' style={{ objectFit: 'cover', objectPosition: 'center' }}>
-                        <source src="/images/land.mp4" type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </video>
+                    
                 </div>
             </div>
 
