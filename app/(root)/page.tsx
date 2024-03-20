@@ -4,7 +4,7 @@ import { client } from '@/sanity/lib/client';
 import { urlForImage } from '@/sanity/lib/image';
 import { SanityDocument } from 'next-sanity';
 import Image from 'next/image';
-import Link from 'next/link';
+
 import React, { useState } from 'react'
 const query = '*[_type == "promociones"]';
 const Home = async () => {
@@ -58,7 +58,7 @@ const Home = async () => {
                             <h2 className="text-xl font-semibold">{pro?.name} sss</h2>
                             <Image
                                 className="rounded-2xl mb-4 object-cover max-h-96 min-h-96 bg-top bg-[#1d1d20]"
-                                src={urlForImage(pro?.image[0])}
+                                src={urlForImage(pro?.image)}
                                 width={400}
                                 height={400}
                                 quality={100}
