@@ -58,7 +58,7 @@ const Home = async () => {
                             className="my-4 bg-white dark:bg-gray-950 p-4 rounded-lg shadow-md track"
                             key={pro._id}
                         >
-                            <h2 className="text-xl font-semibold">{pro?.name}</h2>
+                            <h2 className="text-xl font-semibold">{pro?.name} sss</h2>
                             <Image
                                 className="rounded-2xl mb-4 object-cover max-h-96 min-h-96 bg-top bg-[#1d1d20]"
                                 src={urlForImage(pro?.image[0])}
