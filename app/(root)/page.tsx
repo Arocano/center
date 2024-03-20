@@ -9,8 +9,8 @@ import React, { useState } from 'react'
 const query = '*[_type == "promociones"]';
 const Home = async () => {
 
-    //const prom = await client.fetch<SanityDocument>(query);
-    //console.log(prom)
+    const prom = await client.fetch<SanityDocument>(query);
+    console.log(prom)
     return (
 
         <div className='flex flex-col'>
@@ -51,7 +51,7 @@ const Home = async () => {
 
             </div>
 
-            {/* <div className='flex bg-black'>
+            <div className='flex bg-black'>
                 <ul className=" h-full grid grid-cols-1 gap-6 lg:grid-cols-2 xl:grid-cols-3 lg:gap-8">
                     {prom.map((pro: any) => (
                         <li
@@ -70,7 +70,7 @@ const Home = async () => {
                         </li>
                     ))}
                 </ul>
-            </div> */}
+            </div>
         </div>
     )
 
