@@ -51,7 +51,7 @@ const Home = async () => {
 
             </div>
 
-            <div className='flex bg-black'>
+            {/* <div className='flex bg-black'>
                 <ul className=" h-full grid grid-cols-1 gap-6 lg:grid-cols-2 xl:grid-cols-3 lg:gap-8">
                     {prom.map((pro: any) => (
                         <li
@@ -70,7 +70,7 @@ const Home = async () => {
                         </li>
                     ))}
                 </ul>
-            </div>
+            </div> */}
         </div>
     )
 
