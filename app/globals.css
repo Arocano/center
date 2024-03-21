@@ -75,3 +75,26 @@
   }
 }
 
+.carouselContainer {
+  overflow: hidden;
+}
+
+.carouselList {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  transition: transform 0.5s ease;
+}
+
+.carouselItem {
+  flex: 0 0 400px; /* Ancho fijo de cada elemento */
+  margin-right: 20px; /* Espacio entre elementos */
+}
+
+@media (max-width: 768px) {
+  .carouselItem {
+      flex: 0 0 calc(100vw - 40px); /* Ajuste para dispositivos móviles */
+      margin-right: 10px; /* Espacio entre elementos en dispositivos móviles */
+  }
+}
