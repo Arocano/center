@@ -153,9 +153,9 @@ const Home = async () => {
                             alt={"logo"}
                         />
                         <div className='my-2'>
-                            <p><strong>Dirección:</strong> 123 Calle Principal, Ciudad, País</p>
-                            <p><strong>Teléfono:</strong> +123 456 789</p>
-                            <p><strong>Correo Electrónico:</strong> info@example.com</p>
+                            <p><strong>Dirección:</strong> Gabriel García Mogrovejo, Ambato, Ecuador</p>
+                            <p><strong>Teléfono:</strong> 0984407445-0987577766-0984585068</p>
+                            <p><strong>Correo Electrónico:</strong> topracingcenter@gmail.com</p>
                         </div>
                     </div>
                     <div className='flex flex-col gap-3 items-center justify-center'>
