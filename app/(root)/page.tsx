@@ -65,12 +65,12 @@ const Home = async () => {
             </div>
 
             <div className='bg-black w-full flex items-center justify-center '>
-                <Carousel className="max-w-64  sm:max-w-sm md:max-w-3xl  lg:max-w-4xl xl:max-w-7xl mt-4">
+                <Carousel className="max-w-64  sm:max-w-sm md:max-w-3xl  lg:max-w-4xl xl:max-w-6xl mt-4">
                     <CarouselContent className="">
                         {prom.map((pro: any, index: any) => (
                             <CarouselItem key={index} className="  md:basis-1/3 ">
                                 <Image
-                                    className="rounded-2xl mb-4 object-cover max-h-full min-h-96 bg-top bg-[#1d1d20]"
+                                    className="rounded-2xl mb-4  max-h-full min-h-96 bg-top bg-[#1d1d20]"
                                     src={urlForImage(pro?.image)}
                                     width={500}
                                     height={500}
@@ -90,12 +90,12 @@ const Home = async () => {
             </div>
 
             <div className='bg-gray-200 w-full flex items-center justify-center '>
-                <Carousel className="max-w-64  sm:max-w-sm md:max-w-3xl  lg:max-w-4xl xl:max-w-7xl mt-4">
+                <Carousel className="max-w-64  sm:max-w-sm md:max-w-3xl  lg:max-w-4xl xl:max-w-6xl mt-4">
                     <CarouselContent className="">
                         {serv.map((pro: any, index: any) => (
                             <CarouselItem key={index} className="  md:basis-1/3 ">
                                 <Image
-                                    className="rounded-2xl mb-4 object-cover max-h-full min-h-96 bg-top bg-[#1d1d20] "
+                                    className="rounded-2xl mb-4  max-h-full min-h-96 bg-top bg-[#1d1d20] "
                                     src={urlForImage(pro?.image)}
                                     width={500}
                                     height={500}
@@ -116,12 +116,12 @@ const Home = async () => {
             </div>
 
             <div className='bg-red-700 w-full flex items-center justify-center '>
-                <Carousel className="max-w-64  sm:max-w-sm md:max-w-3xl  lg:max-w-4xl xl:max-w-7xl mt-4">
+                <Carousel className="max-w-64  sm:max-w-sm md:max-w-3xl  lg:max-w-4xl xl:max-w-6xl mt-4">
                     <CarouselContent className="">
                         {pi.map((pro: any, index: any) => (
                             <CarouselItem key={index} className="  md:basis-1/2">
                                 <Image
-                                    className="rounded-2xl mb-4 object-cover max-h-full min-h-96 bg-top bg-[#1d1d20] w-full"
+                                    className="rounded-2xl mb-4  max-h-full min-h-96 bg-top bg-[#1d1d20] w-full"
                                     src={urlForImage(pro?.image)}
                                     width={500}
                                     height={500}
