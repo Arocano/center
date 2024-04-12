@@ -121,7 +121,7 @@ const Home = async () => {
                         {pi.map((pro: any, index: any) => (
                             <CarouselItem key={index} className="  md:basis-1/2">
                                 <Image
-                                    className="rounded-2xl mb-4  max-h-96 min-h-96 bg-top bg-[#1d1d20] w-full"
+                                    className="rounded-2xl mb-4  max-h-full min-h-96 bg-top bg-[#1d1d20] w-full"
                                     src={urlForImage(pro?.image)}
                                     width={500}
                                     height={500}
